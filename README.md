@@ -21,3 +21,6 @@ I will be tweaking the played inaudible sample with Audacity until this works en
 - v1.7 a further attempt to increase effectiveness of sample
 
 - v1.8 a further attempt to increase effectiveness of sample
+
+- v1.9 a further attempt to increase effectiveness of sample
+
