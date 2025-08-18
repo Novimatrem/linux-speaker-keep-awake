@@ -27,3 +27,5 @@ I will be tweaking the played inaudible sample with Audacity until this works en
 - v2.0 a further attempt to increase effectiveness of sample, but gentler, as we're close
 
 - v2.1 a further attempt to increase effectiveness of sample, but gentler, as we're close
+
+- v2.2 a further attempt to increase effectiveness of sample, but gentler, as we're close
