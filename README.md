@@ -13,3 +13,5 @@ I will be tweaking the played inaudible sample with Audacity until this works en
 - v1.3 a further attempt to increase effectiveness of sample
 
 - v1.4 a further attempt to increase effectiveness of sample
+
+- v1.5 a further attempt to increase effectiveness of sample
