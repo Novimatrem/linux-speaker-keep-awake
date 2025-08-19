@@ -31,3 +31,5 @@ I will be tweaking the played inaudible sample with Audacity until this works en
 - v2.2 a further attempt to increase effectiveness of sample, but gentler, as we're close
 
 - v2.3 a further attempt to increase effectiveness of sample, but even gentler, as we're EXTREMELY close
+
+⭐ Woo! v2.3 perfected the sample, it kept the speaker awake all night long, so that bit's done!
