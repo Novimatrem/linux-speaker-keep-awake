@@ -33,3 +33,5 @@ I will be tweaking the played inaudible sample with Audacity until this works en
 - v2.3 a further attempt to increase effectiveness of sample, but even gentler, as we're EXTREMELY close
 
 ⭐ Woo! v2.3 perfected the sample, it kept the speaker awake all night long, so that bit's done!
+
+- v3.0 fixes/pins the master volume to 64% permanently- **the speaker waking sample now can't be turned down accidentally leading to the speaker turning off**. Set all volumes for/in just individual applications instead, to turn up/down your levels for comfort.

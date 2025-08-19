@@ -65,21 +65,31 @@ paplay $(dirname "$0")/bleep.wav
 while true
 do
   clear
-  echo "Playing the sample to keep the speaker awake..."
+echo "Playing the sample to keep the speaker awake..."
+echo ""
+echo "Volume is being set fixed 64% or the sample causes distortion due to harmonic   audiofile nerd reasons..."
+  echo "and also the more practical reason of"
+  echo "the speaker-waking sample being less effective/disabled at lower/no volume(s),  that's dumb!"
+  echo "Set all volumes for/in just individual applications instead."
   paplay $(dirname "$0")/warning-beep_distfix.wav
 
 # Volume must be limited or the sample causes distortion due to harmonic audiofile nerd reasons...
 
 echo ""
-  echo "Volume must be limited or the sample causes distortion due to harmonic audiofile nerd reasons..."
+echo "Playing the sample to keep the speaker awake..."
 echo ""
-echo "Checking volume..."
+echo "Volume is being set fixed 64% or the sample causes distortion due to harmonic   audiofile nerd reasons..."
+  echo "and also the more practical reason of"
+  echo "the speaker-waking sample being less effective/disabled at lower/no volume(s),  that's dumb!"
+  echo "Set all volumes for/in just individual applications instead."
 
 x=$(pactl list sinks | grep '^[[:space:]]Volume:' | head -n $(( $SINK + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,' )
 if [[ $x -le 65 ]]
 then
+    amixer -D pulse sset Master 64%
+    pactl set-sink-volume @DEFAULT_SINK@ 64%
     echo ""
-    echo "Volume is fine, don't have to fix it this loop."
+    echo "Volume adjusted."
     echo ""
 fi
 
@@ -92,7 +102,19 @@ fi
 
 echo "Looping..."
 
+    amixer -D pulse sset Master 64%
+    pactl set-sink-volume @DEFAULT_SINK@ 64%
+
+clear
+
   sleep 1
+
+echo "Playing the sample to keep the speaker awake..."
+echo ""
+echo "Volume is being set fixed 64% or the sample causes distortion due to harmonic   audiofile nerd reasons..."
+  echo "and also the more practical reason of"
+  echo "the speaker-waking sample being less effective/disabled at lower/no volume(s),  that's dumb!"
+  echo "Set all volumes for/in just individual applications instead."
 done
 
 
