@@ -71,7 +71,7 @@ echo "Volume is being set fixed 64% or the sample causes distortion due to harmo
   echo "and also the more practical reason of"
   echo "the speaker-waking sample being less effective/disabled at lower/no volume(s),  that's dumb!"
   echo "Set all volumes for/in just individual applications instead."
-  paplay $(dirname "$0")/warning-beep_distfix.wav
+  paplay --volume 65536 $(dirname "$0")/warning-beep_distfix.wav
 
 # Volume must be limited or the sample causes distortion due to harmonic audiofile nerd reasons...
 

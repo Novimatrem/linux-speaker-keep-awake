@@ -45,3 +45,5 @@ I will be tweaking the played inaudible sample with Audacity until this works en
 - REVERTED BACK TO v3.1 turns out the previous power loss was due to a loose cable, v3.1 of the sample survived 11 hours successfully without issue until the power cable was accidentally pulled out of the socket by the legs of my overbed table (which I rely on for accessibility reasons). Continue testing on from here.
 
 - ⭐ v3.1 lasted another 13 hours before sound was caused to play unintentionally. Testing is going well. Will continue to test from now.
+
+- ⭐⭐ v3.3, the previous version (v3.1) lasted 13 whole days before the speaker shut down automatically. Further attemptted to increase effectiveness of sample, very gently, to fix circumstances it's inconsistent, it was EXTREMELY close
